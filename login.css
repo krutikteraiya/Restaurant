@@ -1,0 +1,123 @@
+  @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("img/bg-login.jpg") /*no-repeat*/;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .first {
+    width: 520px;
+    background:rgba(700, 0, 900, .2);
+    color: #fff;
+    padding: 50px;
+    box-shadow: 0 0 10px;
+  }
+
+  .first h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .first .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 50px 0;
+    padding: 12px;
+  }
+
+  .input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    padding: 15px;
+}
+
+.remember label input {
+    color: #fff;
+    margin-right: 3px;
+}
+
+.remember a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember a:hover {
+    text-decoration: underline;
+}
+
+.first .btn1 {
+    width: 40%;
+    height: 45px;
+    background:#fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.first .btn2 {
+    width: 40%;
+    height: 45px;
+    background:#fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.button1 {
+  text-align: center;
+  cursor: pointer;
+  justify-content: center;
+  margin-left: 160px;
+}
